@@ -18,7 +18,7 @@ commandTests:
       - "list"
       - "community.hashi_vault"
     expectedOutput:
-      - "^community.hashi_vault"
+      - 'community\.hashi_vault [0-9]+\.[0-9]+\.[0-9]+'
   - name: "Test if community.mysql collection is installed"
     command: "ansible-galaxy"
     args:
@@ -26,5 +26,5 @@ commandTests:
       - "list"
       - "community.mysql"
     expectedOutput:
-      - "^community.mysql"
+      - 'community\.mysql [0-9]+\.[0-9]+\.[0-9]+'
     exitCode: 0

@@ -1,0 +1,30 @@
+---
+schemaVersion: '2.0.0' # Make sure to test the latest schema version
+commandTests:
+  - name: "Test if Ansible is installed"
+    command: "ansible"
+    args:
+      - "--version"
+    exitCode: 0
+  - name: "Test if pre-commit is installed"
+    command: "pre-commit"
+    args:
+      - "--version"
+    exitCode: 0
+  - name: "Test if community.hashi_vault collection is installed"
+    command: "ansible-galaxy"
+    args:
+      - "collection"
+      - "list"
+      - "community.hashi_vault"
+    expectedOutput:
+      - "^community.hashi_vault"
+  - name: "Test if community.mysql collection is installed"
+    command: "ansible-galaxy"
+    args:
+      - "collection"
+      - "list"
+      - "community.mysql"
+    expectedOutput:
+      - "^community.mysql"
+    exitCode: 0

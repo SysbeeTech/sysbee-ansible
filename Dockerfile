@@ -1,4 +1,4 @@
-FROM python:3.12.0-slim-bookworm
+FROM python:3.12.1-slim-bookworm
 ENV DEBIAN_FRONTEND noninteractive
 MAINTAINER "sasa@sysbee.net"
 LABEL org.opencontainers.image.source https://github.com/sysbeetech/sysbee-ansible

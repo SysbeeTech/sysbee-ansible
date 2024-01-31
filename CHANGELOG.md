@@ -1,3 +1,9 @@
+# 9.2.0
+
+### Changed
+
+- update Ansible to 9.2.0.
+
 # 9.1.0
 
 ### Changed

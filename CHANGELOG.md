@@ -1,3 +1,13 @@
+<a name="9.3.0"></a>
+## 9.3.0 (2024-03-01)
+
+
+#### Deps
+
+* **deps:**  update dependency ansible to v9.3.0 ([850e2ce5](https://github.com/SysbeeTech/sysbee-ansible/commit/850e2ce5a8d435b834aae3ede560f1b68cb47a3c))
+
+
+
 ## 9.2.0-1 (2024-02-22)
 
 

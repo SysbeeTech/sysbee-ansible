@@ -1,3 +1,17 @@
+## 9.4.0 (2024-03-28)
+
+
+#### Deps
+
+* **deps:**
+  *  update dependency ansible to v9.4.0 ([b2ff82d8](https://github.com/SysbeeTech/sysbee-ansible/commit/b2ff82d8f7f20f4764b23518a56bcc2a489064a9))
+  *  update dependency pre-commit to v3.7.0 ([e0e9b37c](https://github.com/SysbeeTech/sysbee-ansible/commit/e0e9b37c6c1f1c69b2c2e28707213cf60a6c1d62))
+  *  update softprops/action-gh-release action to v2 ([8c8ae24c](https://github.com/SysbeeTech/sysbee-ansible/commit/8c8ae24c269ecb607376bf47d44df658e3ff22b8))
+  *  update dependency community.hashi_vault to v6.2.0 ([43469e0f](https://github.com/SysbeeTech/sysbee-ansible/commit/43469e0f85293c6f6540aee52dcf59db2aee44e5))
+  *  update dependency ansible to v9.3.0 ([850e2ce5](https://github.com/SysbeeTech/sysbee-ansible/commit/850e2ce5a8d435b834aae3ede560f1b68cb47a3c))
+
+
+
 <a name="9.3.0"></a>
 ## 9.3.0 (2024-03-01)
 
